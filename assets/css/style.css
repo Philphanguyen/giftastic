@@ -1,6 +1,8 @@
 body {
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    background:beige;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    background:url("../images/landscape.png") top right no-repeat; 
+    background-attachment:fixed;
     margin-left: 10%;
     margin-right: 10%;
     text-align:left;
@@ -11,8 +13,6 @@ h1 {
     padding: 10px;
     margin: 25px;
     font-weight: bold;
-    color: rgb(252, 241, 96);
-    text-shadow: 2px 2px #0051ff;
 }
 h2 {
     display: block;
@@ -22,9 +22,49 @@ h2 {
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
-    color: rgb(30, 148, 60);
+}
+
+#pageArea {
+    background-image: url("../images/tile.png");
+    background-repeat: repeat;
+    padding-bottom: 600px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#topicsArea {
+    margin-top: 1em;
+    padding: 12px;
+}
+
+#gifArea {
+    padding: 12px;
+}
+
+#topic {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    background-color: rgb(214, 233, 243);
+    font-size: 12px;
+    padding: 12px 28px;
+    border-radius: 12px;
+    border: 2px solid rgb(47, 137, 160);
+    margin-right: .5em;
+    margin-bottom: .5em;
 }
 
 #searchArea {
     float: right;
+    margin-right: .5em;
+    display: block;
+    font-weight: bold;
+    color: rgb(64, 113, 202);
+    text-shadow: 2px 2px rgb(231, 255, 98);
+}
+
+#searcher {
+    background-color: rgb(214, 233, 243);
+    border-radius: 12px;
+    border: 2px solid rgb(47, 137, 160);
+    margin-top: 1em;
 }

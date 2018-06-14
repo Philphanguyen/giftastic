@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    var topics=["charmander","bulbasaur","squirtle","pikachu","eevee",
-                "psyduck", "snorlax", "magikarp", "zubat", "meowth"]
+    var topics=["Charmander","Bulbasaur","Squirtle","Pikachu","Eevee",
+                "Psyduck", "Snorlax", "Magikarp", "Zubat", "Meowth"]
     var btns = $("#topicsArea");
 
     function buttonMaker() {
